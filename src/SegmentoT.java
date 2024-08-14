@@ -15,7 +15,7 @@ public class SegmentoT {
     private String campo14;
     private String campo15;
     private String campo16;
-    private String campo17;
+    private Double campo17;
     private String campo18;
     private String campo19;
     private String campo20;
@@ -25,11 +25,11 @@ public class SegmentoT {
     private String campo24;
     private String campo25;
     private String campo26;
-    private String campo27;
+    private Double campo27;
     private String campo28;
     private String campo29;
 
-    public SegmentoT(String campo01, String campo02, String campo03, String campo04, String campo05, String campo06, String campo07, String campo08, String campo09, String campo10, String campo11, String campo12, String campo13, String campo14, String campo15, String campo16, String campo17, String campo18, String campo19, String campo20, String campo21, String campo22, String campo23, String campo24, String campo25, String campo26, String campo27, String campo28, String campo29) {
+    public SegmentoT(String campo01, String campo02, String campo03, String campo04, String campo05, String campo06, String campo07, String campo08, String campo09, String campo10, String campo11, String campo12, String campo13, String campo14, String campo15, String campo16, Double campo17, String campo18, String campo19, String campo20, String campo21, String campo22, String campo23, String campo24, String campo25, String campo26, Double campo27, String campo28, String campo29) {
         this.campo01 = campo01;
         this.campo02 = campo02;
         this.campo03 = campo03;
@@ -189,11 +189,11 @@ public class SegmentoT {
         this.campo16 = campo16;
     }
 
-    public String getCampo17() {
+    public Double getCampo17() {
         return campo17;
     }
 
-    public void setCampo17(String campo17) {
+    public void setCampo17(Double campo17) {
         this.campo17 = campo17;
     }
 
@@ -269,11 +269,11 @@ public class SegmentoT {
         this.campo26 = campo26;
     }
 
-    public String getCampo27() {
+    public Double getCampo27() {
         return campo27;
     }
 
-    public void setCampo27(String campo27) {
+    public void setCampo27(Double campo27) {
         this.campo27 = campo27;
     }
 

@@ -6,25 +6,25 @@ public class SegmentoU {
     private String campo05;
     private String campo06;
     private String campo07;
-    private String campo08;
-    private String campo09;
-    private String campo10;
-    private String campo11;
-    private String campo12;
-    private String campo13;
-    private String campo14;
-    private String campo15;
+    private Double campo08;
+    private Double campo09;
+    private Double campo10;
+    private Double campo11;
+    private Double campo12;
+    private Double campo13;
+    private Double campo14;
+    private Double campo15;
     private String campo16;
     private String campo17;
     private String campo18;
     private String campo19;
-    private String campo20;
+    private Double campo20;
     private String campo21;
     private String campo22;
     private String campo23;
     private String campo24;
 
-    public SegmentoU(String campo01, String campo02, String campo03, String campo04, String campo05, String campo06, String campo07, String campo08, String campo09, String campo10, String campo11, String campo12, String campo13, String campo14, String campo15, String campo16, String campo17, String campo18, String campo19, String campo20, String campo21, String campo22, String campo23, String campo24) {
+    public SegmentoU(String campo01, String campo02, String campo03, String campo04, String campo05, String campo06, String campo07, Double campo08, Double campo09, Double campo10, Double campo11, Double campo12, Double campo13, Double campo14, Double campo15, String campo16, String campo17, String campo18, String campo19, Double campo20, String campo21, String campo22, String campo23, String campo24) {
         this.campo01 = campo01;
         this.campo02 = campo02;
         this.campo03 = campo03;
@@ -55,191 +55,95 @@ public class SegmentoU {
         return campo01;
     }
 
-    public void setCampo01(String campo01) {
-        this.campo01 = campo01;
-    }
-
     public String getCampo02() {
         return campo02;
-    }
-
-    public void setCampo02(String campo02) {
-        this.campo02 = campo02;
     }
 
     public String getCampo03() {
         return campo03;
     }
 
-    public void setCampo03(String campo03) {
-        this.campo03 = campo03;
-    }
-
     public String getCampo04() {
         return campo04;
-    }
-
-    public void setCampo04(String campo04) {
-        this.campo04 = campo04;
     }
 
     public String getCampo05() {
         return campo05;
     }
 
-    public void setCampo05(String campo05) {
-        this.campo05 = campo05;
-    }
-
     public String getCampo06() {
         return campo06;
-    }
-
-    public void setCampo06(String campo06) {
-        this.campo06 = campo06;
     }
 
     public String getCampo07() {
         return campo07;
     }
 
-    public void setCampo07(String campo07) {
-        this.campo07 = campo07;
-    }
-
-    public String getCampo08() {
+    public Double getCampo08() {
         return campo08;
     }
 
-    public void setCampo08(String campo08) {
-        this.campo08 = campo08;
-    }
-
-    public String getCampo09() {
+    public Double getCampo09() {
         return campo09;
     }
 
-    public void setCampo09(String campo09) {
-        this.campo09 = campo09;
-    }
-
-    public String getCampo10() {
+    public Double getCampo10() {
         return campo10;
     }
 
-    public void setCampo10(String campo10) {
-        this.campo10 = campo10;
-    }
-
-    public String getCampo11() {
+    public Double getCampo11() {
         return campo11;
     }
 
-    public void setCampo11(String campo11) {
-        this.campo11 = campo11;
-    }
-
-    public String getCampo12() {
+    public Double getCampo12() {
         return campo12;
     }
 
-    public void setCampo12(String campo12) {
-        this.campo12 = campo12;
-    }
-
-    public String getCampo13() {
+    public Double getCampo13() {
         return campo13;
     }
 
-    public void setCampo13(String campo13) {
-        this.campo13 = campo13;
-    }
-
-    public String getCampo14() {
+    public Double getCampo14() {
         return campo14;
     }
 
-    public void setCampo14(String campo14) {
-        this.campo14 = campo14;
-    }
-
-    public String getCampo15() {
+    public Double getCampo15() {
         return campo15;
-    }
-
-    public void setCampo15(String campo15) {
-        this.campo15 = campo15;
     }
 
     public String getCampo16() {
         return campo16;
     }
 
-    public void setCampo16(String campo16) {
-        this.campo16 = campo16;
-    }
-
     public String getCampo17() {
         return campo17;
-    }
-
-    public void setCampo17(String campo17) {
-        this.campo17 = campo17;
     }
 
     public String getCampo18() {
         return campo18;
     }
 
-    public void setCampo18(String campo18) {
-        this.campo18 = campo18;
-    }
-
     public String getCampo19() {
         return campo19;
     }
 
-    public void setCampo19(String campo19) {
-        this.campo19 = campo19;
-    }
-
-    public String getCampo20() {
+    public Double getCampo20() {
         return campo20;
-    }
-
-    public void setCampo20(String campo20) {
-        this.campo20 = campo20;
     }
 
     public String getCampo21() {
         return campo21;
     }
 
-    public void setCampo21(String campo21) {
-        this.campo21 = campo21;
-    }
-
     public String getCampo22() {
         return campo22;
-    }
-
-    public void setCampo22(String campo22) {
-        this.campo22 = campo22;
     }
 
     public String getCampo23() {
         return campo23;
     }
 
-    public void setCampo23(String campo23) {
-        this.campo23 = campo23;
-    }
-
     public String getCampo24() {
         return campo24;
-    }
-
-    public void setCampo24(String campo24) {
-        this.campo24 = campo24;
     }
 }
